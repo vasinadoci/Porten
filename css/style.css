@@ -1,0 +1,850 @@
+@font-face {
+  font-family: "Post No Bills Jaffna Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Post No Bills Jaffna Bold"), url("../fonts/PostNoBillsJaffna-Bold.ttf") format("truetype"), url("../fonts/PostNoBillsJaffna-Bold.woff") format("woff");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+  background: #000;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.title-h2-bold {
+  font-family: "Playfair Display", serif;
+  font-size: 2.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.16;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+}
+
+.title-h2-thin {
+  font-family: "Playfair Display", serif;
+  font-size: 2.25rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.16;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+}
+
+.title-h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.16;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+}
+
+.header-top__line,
+.header-top__left,
+.header-top__right,
+.header-second__right,
+.header-second-line,
+.hero,
+.hero-info,
+.our-offer,
+.new-season__cards,
+.new-collection,
+.season-2018,
+.season-2018__collection,
+.season-2018__container,
+.new-product__cards,
+.our-brends__items,
+.footer__items,
+.footer__item,
+.item-footer-2__buttons {
+  display: flex;
+}
+
+/* HEADER */
+
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 5;
+  width: 100%;
+}
+
+/* HEADER-TOP */
+
+.header-top {
+  width: 100%;
+  background-color: #000;
+}
+
+.header-top__line {
+  width: 100%;
+  height: 44px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+}
+
+.header-top__line .header-top__left-link {
+  text-decoration: none;
+  font-size: 0.75rem;
+  line-height: 1.3;
+  color: #969696;
+}
+
+.header-top__line .header-top__left-link .header-top__left-icon {
+  margin: 11px 0 0 0;
+}
+
+.header-top__line .header-top__left-link:last-child {
+  margin-left: 14px;
+}
+
+.header-top__line .header-top__right-icon {
+  margin: 1px 7px 0 0px;
+}
+
+.header-top__line .header-top__right-link {
+  text-decoration: none;
+  font-size: 0.75rem;
+  line-height: 1.3;
+  color: #969696;
+}
+
+/* HEADER-SECOND */
+
+.header-second {
+  height: 80px;
+  background: #0f0f0f;
+}
+
+.header-second-line {
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-second-line .header-second-line__logo {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Post No Bills Jaffna Bold" !important;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.header-second-line .header-second-line__logo:hover,
+.header-second-line .header-second-line__logo:active {
+  color: #969696;
+}
+
+.header-second-line .header-second-line__menu {
+  display: flex;
+  align-items: center;
+}
+
+.header-second-line .header-second-line__menu .header-second-line__link {
+  padding: 31px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 1.3;
+  color: #969696;
+}
+
+.header-second-line .header-second-line__menu .header-second-line__link:hover,
+.header-second-line .header-second-line__menu .header-second-line__link:active {
+  background: #1f1f1f;
+}
+
+.header-second-line .header-second-line__menu .header-second-line__link:nth-child(4) {
+  margin-left: 20px;
+  padding: 27px 20px;
+}
+
+.header-second-line .header-second-line__menu .header-second-line__link:nth-child(5) {
+  padding: 27px 10px 27px 10px;
+}
+
+/* MAIN */
+
+/* HERO */
+
+.hero {
+  width: 100%;
+  height: 810px;
+  margin: 123px 0 0 0;
+  align-items: center;
+  justify-content: center;
+  background: url("../img/image-full-screen.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero .hero-info {
+  width: 730px;
+  height: 496px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero .hero-info .hero-info__text {
+  width: 730px;
+  height: auto;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* OUR OFFER */
+
+.our-offer {
+  width: 100%;
+  height: 730px;
+  justify-content: space-between;
+}
+
+.our-offer .new-season {
+  width: 1040px;
+  padding: 93px 80px;
+}
+
+.our-offer .new-season .new-season__title::after {
+  display: block;
+  content: "";
+  width: 120px;
+  border-bottom: 1px solid #fff;
+  margin: 50px auto;
+}
+
+.new-season__cards {
+  justify-content: space-between;
+}
+
+.new-season__cards .new-season__card {
+  margin: 0 5px;
+  width: 260px;
+  height: 405px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.new-season__cards .new-season__card .new-season__card-picture {
+  margin-bottom: 25px;
+  padding: 53px 22px 54px 23px;
+  background: #191b1c;
+}
+
+.new-season__cards .new-season__card .new-season__card-picture:hover,
+.new-season__cards .new-season__card .new-season__card-picture:active {
+  opacity: 0.6;
+}
+
+.new-season__cards .new-season__card .new-season__card-title {
+  font-family: "Playfair Display", serif;
+  font-size: 1.125rem;
+  line-height: 1.33;
+  margin-bottom: 10px;
+}
+
+.new-season__cards .new-season__card .new-season__card-price {
+  font-family: "Playfair Display", serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #d0d0d0;
+}
+
+.new-collection {
+  position: relative;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.new-collection .new-collection__img {
+  /*     img{
+         width: 100%;
+         height: 100%;
+         -o-object-fit: cover;
+            object-fit: cover;
+         -o-object-position: center;
+            object-position: center;
+      } */
+}
+
+.new-collection .new-collection__info {
+  position: absolute;
+  margin: 0 0 100px 0;
+  text-align: center;
+}
+
+.new-collection .new-collection__title::after {
+  display: block;
+  content: "";
+  width: 120px;
+  margin: 30px auto;
+  border-bottom: 1px solid #fff;
+}
+
+.new-collection .new-collection__btn {
+  padding: 14px 28px 12px 28px;
+  background: transparent;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  line-height: 1.3;
+  letter-spacing: 0.1rem;
+  color: #fff;
+}
+
+.new-collection .new-collection__btn:hover,
+.new-collection .new-collection__btn:active {
+  background: #969696;
+  color: #000;
+}
+
+/* SEASON 2018 */
+
+.season-2018 {
+  justify-content: space-between;
+  width: 100%;
+  height: 600px;
+}
+
+.season-2018 .season-2018__img {
+  width: 100%;
+}
+
+.season-2018 .season-2018__collection {
+  height: 100%;
+  width: 1040px;
+  justify-content: center;
+  align-items: center;
+}
+
+.season-2018__container {
+  height: 401px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.season-2018__container .season-2018__collection-title:after {
+  display: block;
+  content: "";
+  width: 120px;
+  margin: 40px auto 0 auto;
+  border-bottom: 1px solid #fff;
+}
+
+.season-2018__container .season-2018__collection-text {
+  width: 471px;
+  height: auto;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.season-2018__container .season-2018__collection-btn {
+  padding: 14px 28px 12px 28px;
+  font-family: PT Sans;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  line-height: 1.3;
+  letter-spacing: 0.1rem;
+  color: #fff;
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+.season-2018__container .season-2018__collection-btn:hover,
+.season-2018__container .season-2018__collection-btn:active {
+  background: #969696;
+  color: #000;
+}
+
+/* NEW PRODUCT */
+
+.new-product {
+  margin: 100px 0 125px 0;
+}
+
+.new-product__title:after {
+  display: block;
+  content: "";
+  width: 120px;
+  margin: 33px auto 67px auto;
+  border-bottom: 1px solid #fff;
+}
+
+.new-product__cards {
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.new-product__cards .new-product__card {
+  width: 260px;
+  height: auto;
+  margin-bottom: 33px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.new-product__cards .new-product__card .new-product__card-picture {
+  margin-bottom: 21px;
+  padding: 25px 22px 29px 23px;
+  background: #191b1c;
+}
+
+.new-product__cards .new-product__card .new-product__card-picture:hover,
+.new-product__cards .new-product__card .new-product__card-picture:active {
+  opacity: 0.6;
+}
+
+.new-product__cards .new-product__card .new-product__card-title {
+  font-family: "Playfair Display", serif;
+  font-size: 1.125rem;
+  line-height: 1.33;
+  margin-bottom: 8.5px;
+}
+
+.new-product__cards .new-product__card .new-product__card-price {
+  font-family: "Playfair Display", serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #d0d0d0;
+}
+
+/* OUR BRANDS */
+
+.our-brends {
+  width: 100%;
+  height: auto;
+  padding: 80px 0 107px 0;
+  background: #0f0f0f;
+}
+
+.our-brends .our-brend__title:after {
+  display: block;
+  content: "";
+  width: 120px;
+  margin: 40px auto;
+  border-bottom: 1px solid #fff;
+}
+
+.our-brends__items {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  transition: all 0.5s linear;
+}
+
+.our-brends__items .our-brends__img {
+  background: transparent;
+}
+
+.our-brends__items .our-brends__img:hover,
+.our-brends__items .our-brends__img:focus {
+  background-color: #000;
+  border-radius: 8px;
+}
+
+/* FOOTER */
+
+.footer {
+  width: 100%;
+  height: 400px;
+  background: url("../img/footer-img.svg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.footer .footer__items {
+  width: 100%;
+  height: 300px;
+  padding: 80px 0 0 0;
+  justify-content: space-between;
+}
+
+.footer .footer__items .footer__item {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item-footer-1 {
+  width: 350px;
+  height: 219px;
+}
+
+.item-footer-1 .item-footer-1__text {
+  height: 147px;
+  line-height: 1.5;
+}
+
+.item-footer-2 {
+  width: 287px;
+  height: 174px;
+}
+
+.item-footer-2 .item-footer-2__buttons {
+  height: 102px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.item-footer-2 .item-footer-2__buttons .item-footer-2__btn {
+  background: #0f0f0f;
+  padding: 10px 20px;
+  border: 1px solid #0f0f0f;
+  font-family: "PT Sans", sans-serif;
+  text-transform: lowercase;
+  color: #d0d0d0;
+}
+
+.item-footer-2 .item-footer-2__buttons .item-footer-2__btn:hover,
+.item-footer-2 .item-footer-2__buttons .item-footer-2__btn:focus {
+  background: #969696;
+  color: #000;
+}
+
+.item-footer-3 {
+  width: 350px;
+  height: 193px;
+}
+
+.item-footer-3 .item-footer-3__text {
+  line-height: 1.5;
+}
+
+.item-footer-3 .item-footer-3__form {
+  display: flex;
+}
+
+.item-footer-3 .item-footer-3__form .item-footer-3__field {
+  width: 210px;
+  height: 42px;
+  padding: 18px 0 20px 18px;
+  background: rgba(255, 255, 255, 0.4);
+  outline: none;
+  border: none;
+  color: #fff;
+}
+
+.item-footer-3 .item-footer-3__form ::-moz-placeholder {
+  color: #fff;
+}
+
+.item-footer-3 .item-footer-3__form :-ms-input-placeholder {
+  color: #fff;
+}
+
+.item-footer-3 .item-footer-3__form ::placeholder {
+  color: #fff;
+}
+
+.item-footer-3 .item-footer-3__form .item-footer-3__btn {
+  width: 140px;
+  height: 42px;
+  padding: 10px 15px;
+  font-family: "PT Sans", sans-serif;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #fff;
+  outline: none;
+  border: 1px solid #0f0f0f;
+  background: #0f0f0f;
+}
+
+.item-footer-3 .item-footer-3__form .item-footer-3__btn:hover,
+.item-footer-3 .item-footer-3__form .item-footer-3__btn:focus {
+  border: 1px solid #969696;
+  background: #969696;
+  color: #000;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1860px) {
+  .our-offer {
+    height: 1460px;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .our-offer .new-season {
+    padding: 80px 5px;
+  }
+
+  .new-season__cards .new-season__card .new-season__card-picture {
+    padding: 45px 17px 46px 18px;
+  }
+
+  .season-2018 {
+    width: 100%;
+    height: 1200px;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .season-2018 .season-2018__collection {
+    padding: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .container {
+    max-width: 991px;
+    padding: 0 10px;
+  }
+
+  .our-offer .new-season {
+    width: 100%;
+  }
+
+  .new-season__cards {
+    justify-content: space-around;
+  }
+
+  .footer {
+    height: 570px;
+  }
+
+  .footer .footer__items {
+    height: 100%;
+    align-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .our-offer .new-season {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 95%;
+  }
+
+  .title-h2-bold {
+    font-family: "Playfair Display", serif;
+    font-size: 2.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.16;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    font-size: 1.75rem;
+  }
+
+  .title-h2-thin {
+    font-family: "Playfair Display", serif;
+    font-size: 2.25rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.16;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    font-size: 1.75rem;
+  }
+
+  .title-h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.16;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    font-size: 1.25rem;
+  }
+
+  .header-second .container {
+    padding: 0;
+  }
+
+  .header-second-line .header-second-line__menu {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .header-second-line .header-second-line__menu .header-second-line__link {
+    padding: 2px 10px;
+  }
+
+  .header-second-line .header-second-line__menu .header-second-line__link:nth-child(4) {
+    margin-left: 5px;
+    padding: 2px 10px;
+  }
+
+  .hero .hero-info .hero-info__text {
+    width: 100%;
+    padding: 10px 10px;
+  }
+
+  .footer {
+    height: 750px;
+  }
+
+  .footer .footer__items {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    max-width: 98%;
+  }
+
+  .header-second {
+    height: 140px;
+  }
+
+  .header-second-line {
+    height: 120px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-second-line .header-second-line__menu .header-second-line__link {
+    padding: 2px;
+    font-size: 0.8125rem;
+  }
+
+  .header-second-line .header-second-line__menu .header-second-line__link:nth-child(4) {
+    margin-left: 1px;
+    padding: 2px;
+  }
+
+  .hero .hero-info {
+    padding: 50px 0 0 0;
+  }
+
+  .our-offer .new-season {
+    width: 100%;
+    height: auto;
+  }
+
+  .season-2018 {
+    height: 840px;
+  }
+
+  .season-2018 .season-2018__collection {
+    height: 100%;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .title-h2-bold {
+    font-family: "Playfair Display", serif;
+    font-size: 2.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.16;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    font-size: 1.375rem;
+  }
+
+  .title-h2-thin {
+    font-family: "Playfair Display", serif;
+    font-size: 2.25rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.16;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    font-size: 1.375rem;
+  }
+
+  .title-h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.16;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    font-size: 1.125rem;
+  }
+
+  .our-offer .new-season {
+    padding: 50px 5px 10px 5px;
+  }
+
+  .season-2018 .season-2018__collection {
+    align-items: center;
+  }
+
+  .season-2018__container .season-2018__collection-text {
+    width: auto;
+    padding: 0 10px;
+  }
+
+  .new-product {
+    margin: 60px 0 60px 0;
+  }
+
+  .new-product__cards {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .our-brends__items {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
